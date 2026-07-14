@@ -441,6 +441,12 @@
                                                 name="tipo_seguro_salud" value="{{ old('tipo_seguro_salud') }}"
                                                 style="border: 1px solid #808080; color: #000000;">
                                         </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="eps" class="form-label" style="color: #000000;">EPS</label>
+                                            <input type="text" class="form-control" id="eps" name="eps"
+                                                value="{{ old('eps') }}"
+                                                style="border: 1px solid #808080; color: #000000;">
+                                        </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-4 mb-3">

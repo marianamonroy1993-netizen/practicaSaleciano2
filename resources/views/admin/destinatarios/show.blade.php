@@ -238,6 +238,10 @@
                                         <div class="col-md-3" style="color: #000000;">{{ $destinatario->tipo_seguro_salud }}
                                         </div>
                                     @endif
+                                    @if($destinatario->eps)
+                                        <div class="col-md-3"><strong style="color: #000000;">EPS:</strong></div>
+                                        <div class="col-md-3" style="color: #000000;">{{ $destinatario->eps }}</div>
+                                    @endif
                                 </div>
                                 @if($destinatario->condiciones_medicas)
                                     <hr style="border-color: #808080;">
