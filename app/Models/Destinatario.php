@@ -55,6 +55,7 @@ class Destinatario extends Model
         'estudiando_actualmente',
         'tiene_seguro_salud',
         'tipo_seguro_salud',
+        'eps',
         'condiciones_medicas',
         'medicamentos_permanentes',
         'alergias',
